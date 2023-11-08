@@ -78,3 +78,50 @@ a {
     text-decoration: none;
     color: #0ab7d1;
 }
+
+/* Estilos para telas grandes (desktop) */
+@media (min-width: 768px) {
+
+    .services-container {
+        flex-wrap: wrap;
+    }
+
+    .contact-container {
+        margin-left: 0;
+        justify-content: space-around;
+    }
+
+    .logos {
+        width: 120px;
+        margin-left: 80px;
+    }
+}
+
+/* Estilos para telas médias (tablet) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .description-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container {
+        margin-top: 5%;
+    }
+}
+
+/* Estilos para telas pequenas (celular) */
+@media (max-width: 575px) {
+
+    .description-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container {
+        margin-top: 10%;
+    }
+
+    .logos {
+        width: 70px;
+        margin-left: 20px;
+    }
+}
