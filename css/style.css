@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Nosifer&family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Anton&family=Nosifer&family=Open+Sans:wght@400;500&display=swap');
+*{
+    background-color: #234268;
+}
+.logo-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 3%;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.colored-text {
+    color: #0ab7d1;
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    animation: blink 5s linear infinite;
+}
+  
+@keyframes blink {
+    0% {
+      color: #0ab7d1;
+    }
+    50% {
+      color: transparent;
+    }
+    100% {
+      color: #0ab7d1;
+    }
+  }
+  
+
+.different-color {
+    color: #8bc13c;
+    font-family: 'Nosifer';
+    font-size: 4em;
+    font-weight: 100;
+}
+
+.description-container {
+    color: white;
+    font-family: sans-serif;
+    font-size: 2em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-container {
+    display: flex;
+    color: white;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    transition: all 2s ease;
+    transition-delay: 5ms;
+}
+
+.contact-container {
+    color: #88bf5f;
+    font-family: "anton",sans-serif;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+.logos {
+    width: 100px;
+    float: left;
+    margin-left: 70px;
+}
+a {
+    text-decoration: none;
+    color: #0ab7d1;
+}
